@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/web_empleado_tracker" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="webEmpleado" password="webEmpleado" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/web_empleado_tracker?useSSL=false"/>
+
+</Context>
